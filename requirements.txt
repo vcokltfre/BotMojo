@@ -1,0 +1,5 @@
+requests
+termcolor
+discord.py
+pymongo
+dnspython
