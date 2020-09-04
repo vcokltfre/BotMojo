@@ -7,7 +7,13 @@ from config.config import name
 
 
 class General(commands.Cog):
-    """A general purpose cog for tasks such as cog loading"""
+    """
+    A general purpose cog for tasks such as cog loading
+    
+    DO NOT MODIFY THIS COG UNLESS YOU KNOW WHAT YOU ARE DOING.
+    IT HANDLES CRITICAL TASKS SUCH AS COG RELOADING AND RESTARTING THE BOT.
+    IT MUST NOT BE BROKEN.
+    """
 
     def __init__(self, bot: Bot):
         self.bot = bot
